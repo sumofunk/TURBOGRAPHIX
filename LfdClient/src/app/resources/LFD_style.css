@@ -1,0 +1,70 @@
+body {  
+        background-color: black;
+}
+
+@font-face {
+	font-family: lol_font;
+	src: url('lol_font.ttf');
+}
+
+// .x-body {
+        font-size: 14px;
+}
+
+.x-btn {
+    	background-image: url('graphic/button_bg_01_darken_small.png');
+	background-color: rgba(0,0,0,1);
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+	border:none;
+}
+
+.lolbutton { 
+	background-image: url('graphic/button_bg_01_darken_small.png');
+	background-color: rgba(0,0,0,1);
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+	border:none;
+        margin-top:9px;
+        
+}
+
+.lolbutton:hover {
+        background-image: url('graphic/button_bg_02_darken2_small.png');
+	background-color: rgba(0,0,0,1);
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+	border:none;
+}
+
+.lolbutton .x-btn-inner {
+        font-size: 24px;
+        color:#ecaa2b;
+        font-family: lol_font;
+        margin-top: 7%;
+}
+.lolbutton:hover .x-btn-inner {
+        font-size: 24px;
+        color:#fcea2b;
+        font-family: lol_font;
+        margin-top: 7%;
+}
+
+
+.vport {
+	background-image: url('graphic/Protoman_03_bg1024.png');
+	background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.lolmenubar {
+        font-size: 14px;         
+        width: 66%;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#button-1002 {
+    margin-left: 6px;
+}
